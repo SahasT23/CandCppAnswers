@@ -1,4 +1,5 @@
 // String conceatenation method
+// Basically combining two strings together. student will have to think a lot about arrays and memopry allocation.
 
 #include <stdio.h>
 #include <stdlib.h>

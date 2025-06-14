@@ -1,5 +1,11 @@
 // Pointer Sort 
 
+/**
+ * Crucial apsect of the assessment. 
+ * covers the whole 'swapping' aspect that can be applied using pointers. 
+ * Somewhat similar to previous implementations
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

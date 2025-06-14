@@ -1,4 +1,7 @@
-// Memory Allocation Checker
+// Memory Allocation Checker 
+
+// Good method for debugging and checking allocation. much betetr than error messages from the compiler.
+// Also forces some learning of the std library.
 
 #include <stdio.h>
 #include <stdlib.h>

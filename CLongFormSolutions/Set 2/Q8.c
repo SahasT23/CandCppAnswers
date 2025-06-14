@@ -1,5 +1,11 @@
 // Dynamic Buffer - Advanced
 
+/**
+ * Buffers are a difficult concept to cover, soemthing they can try later on. 
+ * Also covers files, which is a bit more advanced but they can still try it. 
+ * Not necessary. 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

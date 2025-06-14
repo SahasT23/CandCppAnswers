@@ -1,3 +1,5 @@
+// Quite advanced, don't expect them to fully do it. will be good if they can.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
