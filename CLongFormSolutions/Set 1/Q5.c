@@ -1,4 +1,5 @@
-// Temp conversion program
+// Temp conversion program.
+// Really simple, just a step back from the previous, more difficult questions.
 
 #include <stdio.h>
 

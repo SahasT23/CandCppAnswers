@@ -1,3 +1,10 @@
+/*
+Intorducing functions, a bit more advanced and also logical operators have been introduced.
+Also decided to introduce recursion (more advanced concept, but it is a bit more difficult, probably 
+should add some hints for the solution).
+Also introduced the concept of error handling -- shown in "Error: Please enter a non-negative number"
+*/
+
 #include <stdio.h>
 
 // Recursive function to calculate factorial
@@ -5,7 +12,7 @@ unsigned long long factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return n * factorial(n - 1); // takes previous input and then uses it for the calculation
 }
 
 int main() {

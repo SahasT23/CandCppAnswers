@@ -1,3 +1,9 @@
+/*
+Really simple calculator for the first question of set 1.
+Covers the basics of input and output and also some basic mathematical operations.
+Introduces switch-case. Everything that has been taught in set 1 applies here. 
+*/
+
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,7 @@
 // Prime Check Program
+/*
+Adds some for loop content to reinforce their learning
+*/
 
 #include <stdio.h>
 

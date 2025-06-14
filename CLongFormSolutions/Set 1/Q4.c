@@ -1,3 +1,8 @@
+/*
+Introducing global and local scope with this question.
+Students should be able to understand how the global variable is used and referenced in main. 
+*/ 
+
 #include <stdio.h>
 
 // Global variable
