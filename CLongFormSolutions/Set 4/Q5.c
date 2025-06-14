@@ -1,4 +1,5 @@
-// Merge Sort
+// Merge Sort, final emthod and this concludes everything covered regarding algorithms for C. 
+// Divide and Conquer might be a bit difficult, but it will be worth it, as it is the foundational principle for a lot of other algorithms
 
 #include <stdio.h>
 

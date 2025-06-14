@@ -1,5 +1,9 @@
 // Selection Sort
 
+/*
+One of the harder sort methods, but it is good to know. Might need to add some of my computer science stuff to this part of the teaching material. 
+*/
+
 #include <stdio.h>
 
 /* 

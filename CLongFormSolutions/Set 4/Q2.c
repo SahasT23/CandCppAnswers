@@ -1,4 +1,4 @@
-// Binary Search
+// Binary Search, simpler and don't have to think about memory as much.
 
 #include <stdio.h>
 

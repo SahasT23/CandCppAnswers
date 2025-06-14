@@ -7,7 +7,11 @@ Thought Process:
 1. Linear search checks each element in the array sequentially until the target is found or the end is reached.
 2. Return the index if found, otherwise return -1.
 3. Algorithm: Iterate through array from index 0 to n-1, compare each element with target.
+4. Basically using a for loop to go through until your target has been found. 
 */
+
+// You could think about algorithm complexity here, but it is advanced and more computer science related. 
+
 int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == target) {

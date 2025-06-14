@@ -1,4 +1,4 @@
-// Bubble Sort
+// Bubble Sort, bit harder to understand, but once you know how the variables are swapped and the logic behind it, then you're fine.
 
 #include <stdio.h>
 
