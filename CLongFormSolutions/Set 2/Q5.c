@@ -1,3 +1,10 @@
+/*
+String duplication function.
+Very simple once you get the idea of it, you enter a string of characters,
+then it gets copied and printed out. 
+Focusing mostly on memory allocation and how pointers work.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -17,7 +24,7 @@ char *myStrDup(const char *src) {
 }
 
 int main() {
-    char str[100];
+    char str[100]; // Large enough size, can change it if you want. 
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
     

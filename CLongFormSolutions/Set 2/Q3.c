@@ -1,4 +1,6 @@
 // Matrix Allocation Program
+// Fairly simple, very similar to EEE2021 Semester 2 coursework
+
 #include <stdlib.h>
 
 int main() {
@@ -21,6 +23,7 @@ int main() {
     }
     
     // Allocate each row
+    // Basically like a 2D matrix, hence the i and m
     for (int i = 0; i < m; i++) {
         matrix[i] = (int *)malloc(n * sizeof(int));
         if (!matrix[i]) {
@@ -37,7 +40,7 @@ int main() {
         }
     }
     
-    // Print matrix
+    // Print matrix, output
     printf("Matrix:\n");
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {

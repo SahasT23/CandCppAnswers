@@ -1,4 +1,10 @@
 // Advanced Data structure
+/*
+Linked lists are quite advanced, but it builds on a lot of concepts on memory. 
+Moving away from the contiguous memory model of an array. 
+
+This is an advanced question, but it will be really good practice
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
