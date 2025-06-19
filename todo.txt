@@ -1,4 +1,8 @@
 What I need to add:
 Buy sweets.
 Check Notes I and II and proofread in the morning.
+  add OnlineGDB
+  add Github, Git and VSCode tutorial.
+  Highlight easy and difficult questions on the notes
+Plan python code for course.
 Draft for TM report. 
