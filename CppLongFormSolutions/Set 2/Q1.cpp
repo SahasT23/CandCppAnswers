@@ -1,5 +1,7 @@
 // Doesn't run, just the function
 
+#include <iostream>
+
 // createArray function
 int* createArray(int n) {
     int* arr = new int[n];

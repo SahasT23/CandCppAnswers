@@ -1,7 +1,7 @@
 // Operator Overloading
 
 #include <iostream>
-using namespace std;
+
 
 class Counter {
 private:
@@ -23,8 +23,8 @@ public:
 
 int main() {
     Counter c(5);
-    cout << "Initial count: " << c.getCount() << endl;
+    std::cout << "Initial count: " << c.getCount() << std::endl;
     ++c; // Use overloaded ++
-    cout << "After ++c: " << c.getCount() << endl;
+    std::cout << "After ++c: " << c.getCount() << std::endl;
     return 0;
 }

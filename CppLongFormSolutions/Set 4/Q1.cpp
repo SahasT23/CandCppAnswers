@@ -1,7 +1,6 @@
 // Linear Search
 
 #include <iostream>
-using namespace std;
 
 int linearSearch(int arr[], int size, int target) {
     for(int i = 0; i < size; i++) {
@@ -14,24 +13,24 @@ int linearSearch(int arr[], int size, int target) {
 
 int main() {
     int n;
-    cout << "Enter the number of elements: ";
-    cin >> n;
+    std::cout << "Enter the number of elements: ";
+    std::cin >> n;
 
     int* arr = new int[n];
-    cout << "Enter the elements: ";
+    std::cout << "Enter the elements: ";
     for(int i = 0; i < n; i++) {
-        cin >> arr[i];
+        std::cin >> arr[i];
     }
 
     int target;
-    cout << "Enter the target to search: ";
-    cin >> target;
+    std::cout << "Enter the target to search: ";
+    std::cin >> target;
 
     int result = linearSearch(arr, n, target);
     if(result != -1) {
-        cout << "Element found at index: " << result << endl;
+        std::cout << "Element found at index: " << result << std::endl;
     } else {
-        cout << "Element not found." << endl;
+        std::cout << "Element not found." << std::endl;
     }
 
     delete[] arr;

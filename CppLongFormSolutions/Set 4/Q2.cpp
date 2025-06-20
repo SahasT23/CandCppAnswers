@@ -1,7 +1,6 @@
 // Binary Search
 
 #include <iostream>
-using namespace std;
 
 int binarySearchRecursive(int arr[], int left, int right, int target) {
     if(left > right) {
@@ -24,9 +23,9 @@ int main() {
 
     int result = binarySearchRecursive(arr, 0, n-1, target);
     if(result != -1) {
-        cout << "Element found at index: " << result << endl;
+        std::cout << "Element found at index: " << result << std::endl;
     } else {
-        cout << "Element not found." << endl;
+        std::cout << "Element not found." << std::endl;
     }
     return 0;
 }

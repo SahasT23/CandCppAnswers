@@ -1,7 +1,6 @@
 // Polymorphism and Virtual functions
 
 #include <iostream>
-using namespace std;
 
 class Employee {
 public:
@@ -39,8 +38,8 @@ int main() {
     Employee* e1 = new FullTimeEmployee(60000);
     Employee* e2 = new PartTimeEmployee(20, 80);
 
-    cout << "Full-time Employee Pay: $" << e1->calculatePay() << endl;
-    cout << "Part-time Employee Pay: $" << e2->calculatePay() << endl;
+    std::cout << "Full-time Employee Pay: $" << e1->calculatePay() << std::endl;
+    std::cout << "Part-time Employee Pay: $" << e2->calculatePay() << std::endl;
 
     delete e1;
     delete e2;

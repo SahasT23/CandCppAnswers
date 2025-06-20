@@ -1,3 +1,5 @@
+// ADVANCED QUESTION. DON'T DO THIS RIGHT NOW
+
 /*
 Intorducing functions, a bit more advanced and also logical operators have been introduced.
 Also decided to introduce recursion (more advanced concept, but it is a bit more difficult, probably 

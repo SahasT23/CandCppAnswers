@@ -1,7 +1,6 @@
 // Friend Function
 
 #include <iostream>
-using namespace std;
 
 class Beta; // Forward declaration
 
@@ -28,7 +27,7 @@ public:
 };
 
 void addAlphaBeta(const Alpha& A, const Beta& B) {
-    cout << "Sum of Alpha and Beta values: " << (A.aVal + B.bVal) << endl;
+    std::cout << "Sum of Alpha and Beta values: " << (A.aVal + B.bVal) << std::endl;
 }
 
 int main() {

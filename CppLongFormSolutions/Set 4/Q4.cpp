@@ -1,7 +1,6 @@
 // Selection Sort
 
 #include <iostream>
-using namespace std;
 
 void selectionSortDescending(int arr[], int n) {
     for(int i = 0; i < n - 1; i++) {
@@ -26,11 +25,11 @@ int main() {
 
     selectionSortDescending(arr, n);
 
-    cout << "Array sorted in descending order: ";
+    std::cout << "Array sorted in descending order: ";
     for(int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+        std::cout << arr[i] << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
 
     return 0;
 }

@@ -1,4 +1,5 @@
-// Integer
+// Integer memory allocation and resizing example
+// This program reads integers from standard input and dynamically resizes the array to accommodate more integers as needed.
 
 #include <iostream>
 
