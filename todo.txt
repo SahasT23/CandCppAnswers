@@ -5,4 +5,6 @@ Check Notes I and II and proofread in the morning.
   add Github, Git and VSCode tutorial.
   Highlight easy and difficult questions on the notes
 Plan python code for course.
-Draft for TM report. 
+Draft for TM report.
+
+Need to add questions and answers to set 3 for C
