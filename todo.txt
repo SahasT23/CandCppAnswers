@@ -8,3 +8,5 @@ Plan python code for course.
 Draft for TM report.
 
 Need to add questions and answers to set 3 for C
+
+Need to add in depth diagrams and steps for each search/sort algorithm
